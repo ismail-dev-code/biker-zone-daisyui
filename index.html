@@ -333,7 +333,7 @@
             <div class="hero-content flex-col lg:flex-row">
               <img
                 src="./images/others/faq.png"
-                class="w-full rounded-lg shadow-2xl" />
+                class="w-full lg:max-w-sm rounded-lg shadow-2xl" />
               <div class="space-y-2 lg:space-y-5">
                 <div class="collapse collapse-arrow border border-blue-100">
                   <input type="radio" name="my-accordion-2" checked="checked" />
@@ -369,9 +369,37 @@
             </div>
           </div>
         </section>
-        
+
     </main>
     <!-- footer section  -->
-    <footer></footer>
+    <footer class="footer flex justify-between items-center bg-neutral text-neutral-content p-10">
+      <div class="space-y-4">
+        <ol class="flex gap-5 hover:cursor-pointer ">
+          <li class="hover:bg-bike-primary hover:cursor-pointer">Download Now</li>
+          <li class="hover:bg-bike-primary hover:cursor-pointer">License</li>
+        </ol>
+        <ul class="flex gap-5">
+          <li class="hover:bg-bike-primary hover:cursor-pointer">About</li>
+          <li class="hover:bg-bike-primary hover:cursor-pointer">Features</li>
+          <li class="hover:bg-bike-primary hover:cursor-pointer">Pricing</li>
+          <li class="hover:bg-bike-primary hover:cursor-pointer">Careers</li>
+          <li class="hover:bg-bike-primary hover:cursor-pointer">help</li>
+          <li class="hover:bg-bike-primary hover:cursor-pointer">Privacy Policy</li>
+        </ul>
+        <p class="text-xs ">©2025 bike. All rights reserved</p>
+      </div>
+      <nav>
+        <h6 class="footer-title">Get the App</h6>
+        <div class="grid grid-cols-1 gap-4">
+         
+          <a>
+            <img class="w-36 hover:cursor-pointer" src="./images/others/android.png" alt="">
+          </a>
+          <a>
+           <img class="w-36 hover:cursor-pointer" src="./images/others/ios.png" alt="">
+          </a>
+        </div>
+      </nav>
+    </footer>
   </body>
 </html>
